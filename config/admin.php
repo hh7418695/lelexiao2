@@ -356,4 +356,13 @@ return [
         // the extension files will be generated in this directory.
         'dir' => base_path('dcat-admin-extensions'),
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Hide powered by Dcat Admin text in footer
+    |--------------------------------------------------------------------------
+    */
+    'footer' => [
+        'powered_by' => false,
+    ],
 ];

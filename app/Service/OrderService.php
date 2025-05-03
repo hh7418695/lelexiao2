@@ -108,9 +108,10 @@ class OrderService
     /**
      * 判断是否有循环卡密
      *
-     * @param int $goodsID 商品id
-     * @return array|null
-
+     * @param Request $request
+     * @return int
+     * @throws RuleValidationException
+     */
     public function validatorLoopCarmis(Request $request)
     {
         $carmis = Carmis::query()
@@ -119,9 +120,9 @@ class OrderService
             ->where('is_loop', true)
             ->count();
         if($carmis > 0 && $request->input('by_amount') > 1){
-			throw new RuleValidationException(__('dujiaoka.prompt.loop_carmis_limit'));
-		}
-		return $carmis;
+            throw new RuleValidationException(__('dujiaoka.prompt.loop_carmis_limit'));
+        }
+        return $carmis;
     }
 
     /**

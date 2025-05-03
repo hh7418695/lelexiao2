@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => '独角数卡',
+    'name' => '乐乐消小游戏支付系统',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<img src="/vendor/dujiaoka-admin/images/logo.jpg" width="35"> &nbsp;独角 数卡',
+    'logo' => '<img src="/vendor/dujiaoka-admin/images/logo.jpg" width="35"> &nbsp;管理端',
 
     /*
     |--------------------------------------------------------------------------
@@ -88,7 +88,7 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => '独角数卡 - 后台控制中心',
+    'title' => '乐乐消小游戏支付系统 - 后台控制中心',
 
     /*
     |--------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 
 return [
     'official_website' => '官网',
-    'dashboard' => '仪表盘',
+    'dashboard' => '乐乐消小游戏在线支付系统',
     'dashboard_description' => '每个梦想的路上，一起前行....！',
     'join_qq_group' => '加入qq群',
     'join_telegram_group' => '加入tg群',

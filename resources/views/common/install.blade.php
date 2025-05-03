@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>独角数卡安装程序</title>
+    <title>乐乐消小游戏支付系统安装程序</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <meta name="renderer" content="webkit">
 
@@ -119,13 +119,10 @@
 <body>
 <div class="container">
     
-    <h2>独角数卡</h2>
+    <h2>乐乐消小游戏支付系统</h2>
     <div>
 
         <p>每个梦想的路上，一起前行....！
-            <a href="https://t.me/dujiaoka" id="qq-group-link" target="_blank">
-                👉🏻加入Telegram交流群
-            </a>
         </p>
 
         <form method="post">
@@ -144,7 +141,7 @@
                 </div>
                 <div class="form-field">
                     <label>MySQL 数据库名</label>
-                    <input name="db_database" value="dujiaoka" required="">
+                    <input name="db_database" value="lelexiao" required="">
                 </div>
 
                 <div class="form-field">
@@ -179,12 +176,12 @@
             <div class="form-group">
                 <div class="form-field">
                     <label>网站名称</label>
-                    <input type="title" value="独角数卡" name="title" required="">
+                    <input type="title" value="乐乐消小游戏支付系统" name="title" required="">
                 </div>
 
                 <div class="form-field">
                     <label>网站url</label>
-                    <input name="app_url" value="" required="" placeholder="例如：http://dujiaoka.com" />
+                    <input name="app_url" value="" required="" placeholder="例如：http://lelexiao.com" />
                 </div>
 
 

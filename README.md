@@ -1,6 +1,6 @@
 <p align="center"><img alt="" src="https://pub-1b210677db5842d59948e44d3e1ae5d5.r2.dev/2025/05/b9a0da0cd28113354184a1eb59c8eab8.jpg"/>
 
-# 乐乐消
+# 乐乐消小游戏支付管理系统
 
 开源式站长自动化售货解决方案、高效、稳定、快速！
 

@@ -53,10 +53,7 @@ class PayController extends BaseController
      *
      * @param string $orderSN
      * @throws RuleValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function checkOrder(string $orderSN)
     {
@@ -81,10 +78,7 @@ class PayController extends BaseController
      * @param string $orderSN 订单号
      * @param string $payCheck 支付标识
      * @throws RuleValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function loadGateWay(string $orderSN, string $payCheck)
     {
@@ -105,10 +99,7 @@ class PayController extends BaseController
      * @param string $handle 跳转方法
      * @param string $payway 支付标识
      * @param string $orderSN 订单.
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function redirectGateway(string $handle,string $payway, string $orderSN)
     {

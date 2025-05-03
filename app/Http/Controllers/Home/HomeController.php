@@ -39,10 +39,7 @@ class HomeController extends BaseController
      * 首页.
      *
      * @param Request $request
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function index(Request $request)
     {
@@ -55,10 +52,7 @@ class HomeController extends BaseController
      *
      * @param int $id
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function buy(int $id)
     {
@@ -87,10 +81,7 @@ class HomeController extends BaseController
      * 极验行为验证
      *
      * @param Request $request
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function geetest(Request $request)
     {
@@ -110,10 +101,7 @@ class HomeController extends BaseController
      *
      * @param Request $request
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function install(Request $request)
     {
@@ -124,10 +112,7 @@ class HomeController extends BaseController
      * 执行安装
      *
      * @param Request $request
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function doInstall(Request $request)
     {

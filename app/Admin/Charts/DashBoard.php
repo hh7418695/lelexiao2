@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 namespace App\Admin\Charts;
 
@@ -95,10 +89,7 @@ class DashBoard extends RadialBar
      *
      * @param $count
      * @return DashBoard
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function withOrderCount($count)
     {
@@ -134,10 +125,7 @@ HTML
      * @param $failure
      * @param $abnormal
      * @return DashBoard
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function withFooter($pending, $processing, $completed, $failure, $abnormal)
     {

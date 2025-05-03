@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 namespace App\Service;
 
@@ -20,10 +14,7 @@ class PayService
      *
      * @param string|int $payClient 支付场景客户端
      * @return array|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function pays(string $payClient = Pay::PAY_CLIENT_PC): ?array
     {
@@ -39,10 +30,7 @@ class PayService
      *
      * @param string $check 支付标识
      * @return \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Model|object|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function detailByCheck(string $check)
     {
@@ -58,10 +46,7 @@ class PayService
      *
      * @param int $id 支付网关id
      * @return \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Model|object|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function detail(int $id)
     {

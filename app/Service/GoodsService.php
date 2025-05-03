@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 namespace App\Service;
 
@@ -32,10 +26,7 @@ class GoodsService
      * 获取所有分类并加载该分类下的商品
      *
      * @return array|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function withGroup(): ?array
     {
@@ -57,10 +48,7 @@ class GoodsService
      *
      * @param int $id 商品id
      * @return \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Model|object|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function detail(int $id)
     {
@@ -77,10 +65,7 @@ class GoodsService
      *
      * @param Goods $goods 商品模型
      * @return Goods
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function format(Goods $goods)
     {
@@ -101,10 +86,7 @@ class GoodsService
      * @param Goods $goods
      * @return Goods
      * @throws RuleValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function validatorGoodsStatus(Goods $goods): Goods
     {
@@ -123,10 +105,7 @@ class GoodsService
      *
      * @param int $id 商品id
      * @param int $number 出库数量
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function inStockDecr(int $id, int $number = 1): bool
     {
@@ -139,10 +118,7 @@ class GoodsService
      * @param int $id 商品id
      * @param int $number 数量
      * @return bool
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function salesVolumeIncr(int $id, int $number = 1): bool
     {

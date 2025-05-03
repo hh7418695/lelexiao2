@@ -21,10 +21,7 @@ class Goods extends BaseModel
      * 关联分类
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function group()
     {
@@ -35,10 +32,7 @@ class Goods extends BaseModel
      * 关联优惠券
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function coupon()
     {
@@ -49,10 +43,7 @@ class Goods extends BaseModel
      * 关联卡密
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function carmis()
     {
@@ -61,10 +52,7 @@ class Goods extends BaseModel
 
     /**
      * 库存读取器,将自动发货的库存更改为未出售卡密的数量
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function getInStockAttribute()
     {
@@ -81,10 +69,7 @@ class Goods extends BaseModel
      * 获取组建映射
      *
      * @return array
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public static function getGoodsTypeMap()
     {

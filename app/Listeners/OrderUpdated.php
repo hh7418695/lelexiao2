@@ -67,10 +67,7 @@ class OrderUpdated
      * @param array $mailtpl 模板
      * @param array $order 内容
      * @param string $to 接受者
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     private static function sendMailToOrderStatus(array $mailtpl, array $order, string $to) :void
     {

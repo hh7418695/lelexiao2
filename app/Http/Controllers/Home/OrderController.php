@@ -49,10 +49,7 @@ class OrderController extends BaseController
      * @param Request $request
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      * @throws \Illuminate\Validation\ValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function createOrder(Request $request)
     {
@@ -113,10 +110,7 @@ class OrderController extends BaseController
      *
      * @param string $orderSN
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function bill(string $orderSN)
     {
@@ -136,10 +130,7 @@ class OrderController extends BaseController
      *
      * @param string $orderSN 订单号
      * @return \Illuminate\Http\JsonResponse
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function checkOrderStatus(string $orderSN)
     {
@@ -163,10 +154,7 @@ class OrderController extends BaseController
      *
      * @param string $orderSN 订单号.
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function detailOrderSN(string $orderSN)
     {
@@ -183,10 +171,7 @@ class OrderController extends BaseController
      *
      * @param Request $request
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function searchOrderBySN(Request $request)
     {
@@ -198,10 +183,7 @@ class OrderController extends BaseController
      *
      * @param Request $request
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function searchOrderByEmail(Request $request)
     {
@@ -225,10 +207,7 @@ class OrderController extends BaseController
      * 通过浏览器缓存查询
      * @param Request $request
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function searchOrderByBrowser(Request $request)
     {
@@ -246,10 +225,7 @@ class OrderController extends BaseController
      *
      * @param Request $request
      * @return mixed
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function orderSearch(Request $request)
     {

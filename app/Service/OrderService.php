@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 namespace App\Service;
 
@@ -50,10 +44,7 @@ class OrderService
      * @param Request $request
      * @throws RuleValidationException
      * @throws \Illuminate\Validation\ValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function validatorCreateOrder(Request $request): void
     {
@@ -95,10 +86,7 @@ class OrderService
      *
      * @param Request $request 请求
      * @throws RuleValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function validatorGoods(Request $request): Goods
     {
@@ -122,11 +110,7 @@ class OrderService
      *
      * @param int $goodsID 商品id
      * @return array|null
-     *
-     * @author    ZhangYiQiu<me@zhangyiqiu.net>
-     * @copyright ZhangYiQiu<me@zhangyiqiu.net>
-     * @link      http://zhangyiqiu.net/
-     */
+
     public function validatorLoopCarmis(Request $request)
     {
         $carmis = Carmis::query()
@@ -146,10 +130,7 @@ class OrderService
      * @param Request $request
      * @return Coupon|null
      * @throws RuleValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function validatorCoupon(Request $request):? Coupon
     {
@@ -177,10 +158,7 @@ class OrderService
      * @param Request $request
      * @return string
      * @throws RuleValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function validatorChargeInput(Goods $goods, Request $request): string
     {
@@ -204,10 +182,7 @@ class OrderService
      * 通过订单号查询订单
      * @param string $orderSN
      * @return Order
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function detailOrderSN(string $orderSN):? Order
     {
@@ -220,10 +195,7 @@ class OrderService
      *
      * @param string $orderSN
      * @return bool
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function expiredOrderSN(string $orderSN): bool
     {
@@ -235,10 +207,7 @@ class OrderService
      *
      * @param string $orderSN
      * @return bool
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function couponIsBack(string $orderSN): bool
     {
@@ -251,10 +220,7 @@ class OrderService
      * @param string $email 邮箱
      * @param string $searchPwd 查询面面
      * @return array|\Illuminate\Database\Concerns\BuildsQueries[]|\Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection|\Illuminate\Database\Query\Builder[]|\Illuminate\Support\Collection
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function withEmailAndPassword(string $email, string $searchPwd = '')
     {
@@ -273,10 +239,7 @@ class OrderService
      *
      * @param array $orderSNS 订单号集合
      * @return \Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection|\Illuminate\Database\Query\Builder[]|\Illuminate\Support\Collection
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function byOrderSNS(array $orderSNS)
     {

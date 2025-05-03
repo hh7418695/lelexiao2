@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 namespace App\Service;
 
@@ -179,10 +173,7 @@ class OrderProcessService
      * 设置商品
      *
      * @param Goods $goods
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function setGoods(Goods $goods)
     {
@@ -193,10 +184,7 @@ class OrderProcessService
      * 设置优惠码.
      *
      * @param ?Coupon $coupon
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function setCoupon(?Coupon $coupon)
     {
@@ -207,10 +195,7 @@ class OrderProcessService
      * 其他输入框设置.
      *
      * @param ?string $otherIpt
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function setOtherIpt(?string $otherIpt)
     {
@@ -221,10 +206,7 @@ class OrderProcessService
      * 计算优惠码价格
      *
      * @return float
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     private function calculateTheCouponPrice(): float
     {
@@ -239,10 +221,7 @@ class OrderProcessService
     /**
      * 计算批发优惠
      * @return float
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     private function calculateTheWholesalePrice(): float
     {
@@ -267,10 +246,7 @@ class OrderProcessService
     /**
      * 订单总价
      * @return float
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     private function calculateTheTotalPrice(): float
     {
@@ -285,10 +261,7 @@ class OrderProcessService
      * @param float $couponPrice 优惠码优惠价
      * @param float $wholesalePrice 批发优惠
      * @return float
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     private function calculateTheActualPrice(float $totalPrice, float $couponPrice, float $wholesalePrice): float
     {
@@ -304,10 +277,7 @@ class OrderProcessService
      * 创建订单.
      * @return Order
      * @throws RuleValidationException
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function createOrder(): Order
     {
@@ -377,10 +347,7 @@ class OrderProcessService
      * @param float $actualPrice 实际支付金额
      * @param string $tradeNo 第三方订单号
      * @return Order
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function completedOrder(string $orderSN, float $actualPrice, string $tradeNo = '')
     {
@@ -442,10 +409,7 @@ class OrderProcessService
      *
      * @param Order $order 订单
      * @return Order 订单
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function processManual(Order $order)
     {
@@ -481,10 +445,7 @@ class OrderProcessService
      *
      * @param Order $order 订单
      * @return Order 订单
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function processAuto(Order $order): Order
     {

@@ -110,10 +110,7 @@ class CarmisController extends AdminController
      *
      * @param Content $content
      * @return Content
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function importCarmis(Content $content)
     {

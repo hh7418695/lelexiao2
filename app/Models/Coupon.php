@@ -35,10 +35,7 @@ class Coupon extends BaseModel
      * 关联商品
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function goods()
     {

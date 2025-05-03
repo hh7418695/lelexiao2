@@ -25,10 +25,7 @@ class Carmis extends BaseModel
      * 获取组建映射
      *
      * @return array
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public static function getStatusMap()
     {
@@ -42,10 +39,7 @@ class Carmis extends BaseModel
      * 关联商品
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function goods()
     {

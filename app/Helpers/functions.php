@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 
 use App\Exceptions\AppException;
@@ -20,10 +14,7 @@ if (! function_exists('replace_mail_tpl')) {
      * @param array $mailtpl 模板
      * @param array $data 内容
      * @return array|false|mixed
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     function replace_mail_tpl($mailtpl = [], $data = [])
     {
@@ -50,10 +41,7 @@ if (! function_exists('dujiaoka_config_get')) {
      * @param string $key 要获取的key
      * @param $default 默认
      * @return mixed|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     function dujiaoka_config_get(string $key, $default = null)
     {
@@ -69,10 +57,7 @@ if (! function_exists('format_wholesale_price')) {
      *
      * @param string $wholesalePriceArr 批发价配置
      * @return array|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     function format_wholesale_price(string $wholesalePriceArr): ?array
     {
@@ -120,10 +105,7 @@ if (! function_exists('format_charge_input')) {
      *
      * @param string $charge
      * @return array|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     function format_charge_input(string $charge): ?array
     {

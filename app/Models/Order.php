@@ -66,10 +66,7 @@ class Order extends BaseModel
      * 状态映射
      *
      * @return array
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public static function getStatusMap()
     {
@@ -88,10 +85,7 @@ class Order extends BaseModel
      * 类型映射
      *
      * @return array
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public static function getTypeMap()
     {
@@ -105,10 +99,7 @@ class Order extends BaseModel
      * 关联商品
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function goods()
     {
@@ -119,10 +110,7 @@ class Order extends BaseModel
      * 关联优惠券
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function coupon()
     {
@@ -133,10 +121,7 @@ class Order extends BaseModel
      * 关联支付
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function pay()
     {

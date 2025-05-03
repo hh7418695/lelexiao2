@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('pay-gateway/{handle}/{payway}/{orderSN}', 'PayController@redirectGateway');

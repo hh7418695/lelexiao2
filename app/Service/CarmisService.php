@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 namespace App\Service;
 
@@ -21,10 +15,7 @@ class CarmisService
      * @param int $goodsID 商品id
      * @param int $byAmount 数量
      * @return array|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function withGoodsByAmountAndStatusUnsold(int $goodsID, int $byAmount)
     {
@@ -41,10 +32,7 @@ class CarmisService
      *
      * @param array $ids 卡密id集合
      * @return bool
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function soldByIDS(array $ids): bool
     {

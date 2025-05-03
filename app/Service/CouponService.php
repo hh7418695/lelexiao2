@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 namespace App\Service;
 
@@ -21,10 +15,7 @@ class CouponService
      * @param string $coupon 优惠码
      * @param int $goodsID 商品id
      * @return \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Model|object|null
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function withHasGoods(string $coupon, int $goodsID)
     {
@@ -50,10 +41,7 @@ class CouponService
      * 设置优惠券使用次数 -1
      * @param string $coupon
      * @return int
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function retDecr(string $coupon)
     {
@@ -67,10 +55,7 @@ class CouponService
      *
      * @param int $id
      * @return int
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     public function retIncrByID(int $id)
     {

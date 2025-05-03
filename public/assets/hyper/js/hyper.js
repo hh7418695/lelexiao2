@@ -64,7 +64,7 @@ $(function() {
 	// 版权
 	console.group("Lelexiao");
 	console.log("Name: 乐乐消小游戏支付系统");
-	console.log("Github: https://github.com/lelexiao/payment-management-system");
+	// console.log("Github: https://github.com/lelexiao/payment-management-system");
 	console.groupEnd();
 	console.group("Theme");
 	console.log("Name: Hyper Theme");

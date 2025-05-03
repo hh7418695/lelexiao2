@@ -1,11 +1,5 @@
 <?php
-/**
- * The file was created by Assimon.
- *
- * @author    assimon<ashang@utf8.hk>
- * @copyright assimon<ashang@utf8.hk>
- * @link      http://utf8.hk/
- */
+
 
 namespace App\Http\Controllers;
 
@@ -20,10 +14,7 @@ class BaseController extends Controller
      * @param array $pageTitle 页面标题
      *
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     protected function render(string $tpl, $data = [], string $pageTitle = '')
     {
@@ -38,10 +29,7 @@ class BaseController extends Controller
      * @param string $content 提示内容
      * @param string $jumpUri 跳转url
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *
-     * @author    assimon<ashang@utf8.hk>
-     * @copyright assimon<ashang@utf8.hk>
-     * @link      http://utf8.hk/
+
      */
     protected function err(string $content, $jumpUri = '')
     {

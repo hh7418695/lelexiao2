@@ -34,6 +34,7 @@ class SalesCard extends Bar
             'seven' => admin_trans('dujiaoka.last_seven_days'),
             'today' => admin_trans('dujiaoka.last_today'),
             'month' => admin_trans('dujiaoka.last_month'),
+            'year' => admin_trans('dujiaoka.last_year'),
         ]);
         // 设置图表颜色
         $this->chartColors([
@@ -61,6 +62,9 @@ class SalesCard extends Bar
                 break;
             case 'today':
                 $startTime = Carbon::today();
+                break;
+            case 'year':
+                $startTime = Carbon::now()->subYear();
                 break;
             default:
                 $startTime =  Carbon::now()->subDays(7);

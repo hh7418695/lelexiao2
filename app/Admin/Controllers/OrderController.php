@@ -54,6 +54,27 @@ class OrderController extends AdminController
             $grid->column('created_at');
             $grid->column('updated_at')->sortable();
             $grid->disableCreateButton();
+            
+            // 添加导出功能
+            $grid->export()->titles([
+                'order_sn' => '订单号',
+                'title' => '订单名称',
+                'email' => '邮箱',
+                'goods.gd_name' => '商品名称',
+                'goods_price' => '商品单价',
+                'buy_amount' => '购买数量',
+                'total_price' => '订单总价',
+                'coupon.coupon' => '优惠码',
+                'coupon_discount_price' => '优惠金额',
+                'wholesale_discount_price' => '批发优惠',
+                'actual_price' => '实际支付',
+                'pay.pay_name' => '支付方式',
+                'buy_ip' => '购买IP',
+                'status' => '订单状态',
+                'created_at' => '创建时间',
+                'updated_at' => '更新时间'
+            ]);
+            
             $grid->filter(function (Grid\Filter $filter) {
                 $filter->equal('order_sn');
                 $filter->like('title');

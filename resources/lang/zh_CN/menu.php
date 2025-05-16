@@ -14,9 +14,9 @@ return [
         'scaffold'      => '代码生成器',
         'icons'         => '图标',
 
-        'goods_manage'  => '商品管理',
-        'goods'         => '商品列表',
-        'goods_group'   => '商品分类',
+        'goods_manage'  => '游戏商品管理',
+        'goods'         => '游戏商品列表',
+        'goods_group'   => '游戏商品分类',
         'carmis_manage' => '充值管理',
         'carmis'        => '列表',
         'import_carmis' => '导入',

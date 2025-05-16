@@ -30,7 +30,7 @@
             <img class="avatar img-circle shadow mt-1" src="https://pub-1b210677db5842d59948e44d3e1ae5d5.r2.dev/2025/05/b9a0da0cd28113354184a1eb59c8eab8.jpg">
 
             <div class="text-center mb-1">
-                <h1 class="mb-3 mt-2 text-white">乐乐消小游戏支付系统</h1>
+                <h1 class="mb-3 mt-2 text-white">乐乐消小游戏财务管理系统</h1>
                 
             </div>
         </div>

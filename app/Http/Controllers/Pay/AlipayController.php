@@ -99,6 +99,37 @@ class AlipayController extends PayController
         }
     }
 
-
+    /**
+     * 测试方法 - 模拟支付宝支付成功
+     */
+    public function testNotify(string $orderSN)
+    {
+        $order = $this->orderService->detailOrderSN($orderSN);
+        if (!$order) {
+            return 'error';
+        }
+        $payGateway = $this->payService->detail($order->pay_id);
+        if (!$payGateway) {
+            return 'error';
+        }
+        if($payGateway->pay_handleroute != '/pay/alipay'){
+            return 'fail';
+        }
+        
+        // 模拟支付成功的回调数据
+        $mockData = [
+            'out_trade_no' => $orderSN,
+            'total_amount' => $order->actual_price,
+            'trade_no' => 'TEST' . time(),
+            'trade_status' => 'TRADE_SUCCESS'
+        ];
+        
+        try {
+            $this->orderProcessService->completedOrder($mockData['out_trade_no'], $mockData['total_amount'], $mockData['trade_no']);
+            return 'success';
+        } catch (\Exception $exception) {
+            return 'fail';
+        }
+    }
 
 }

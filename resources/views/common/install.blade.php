@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>乐乐消小游戏支付系统安装程序</title>
+    <title>乐乐消小游戏财务管理系统安装程序</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <meta name="renderer" content="webkit">
 
@@ -119,11 +119,11 @@
 <body>
 <div class="container">
     
-    <h2>乐乐消小游戏支付系统</h2>
+    <h2>乐乐消小游戏财务管理系统</h2>
     <div>
 
-        <p>每个梦想的路上，一起前行....！
-        </p>
+        <!-- <p>每个梦想的路上，一起前行....！
+        </p> -->
 
         <form method="post">
             <div id="error" style="display:none"></div>

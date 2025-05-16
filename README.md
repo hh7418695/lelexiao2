@@ -2,8 +2,6 @@
 
 # 乐乐消小游戏财务管理系统
 
-开源式站长自动化售货解决方案、高效、稳定、快速！
-
 - 框架来自：[laravel/framework](https://github.com/laravel/laravel).
 - 后台管理系统：[laravel-admin](https://laravel-admin.org/).
 - 前端ui [bootstrap](https://getbootstrap.com/).

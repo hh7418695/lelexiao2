@@ -3,8 +3,8 @@
 
 return [
     'official_website' => '官网',
-    'dashboard' => '乐乐消小游戏在线支付系统',
-    'dashboard_description' => '每个梦想的路上，一起前行....！',
+    'dashboard' => '乐乐消小游戏财务管理系统',
+    'dashboard_description' => '',
     'join_qq_group' => '加入qq群',
     'join_telegram_group' => '加入tg群',
     'is_open' => '是否启用',
@@ -62,7 +62,7 @@ return [
     'img_verify_code' => '图形验证码',
     'coupon_code' => '优惠码',
     'copy_text' => '复制',
-    'search_goods_name' => '商品名称...',
+    'search_goods_name' => '虚拟商品名称...',
 
     'behavior_verification' => '行为验证',
     'click_to_behavior_verification' => '点击进行此处行为验证',
@@ -130,8 +130,8 @@ return [
         'android_device' => '安卓设备',
         'click_on_the_upper_right_corner' => '点击右上角',
         'open_the_browser' => '在 浏览器 打开',
-        'what_do_you_need_today' => '今天需要一点什么？',
-        'self_promotion' => '优质的商品和卓越的客户服务代表完美的交易流程体现。',
+        'what_do_you_need_today' => '乐乐消财务管理系统内购平台',
+        'self_promotion' => '',
     ],
 
     'page-title' => [

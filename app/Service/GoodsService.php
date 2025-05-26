@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Service;
-
 
 use App\Exceptions\RuleValidationException;
 use App\Models\Carmis;
@@ -14,10 +12,6 @@ use App\Models\GoodsGroup;
  *
  * Class GoodsService
  * @package App\Service
- * @author: Assimon
- * @email: Ashang@utf8.hk
- * @blog: https://utf8.hk
- * Date: 2021/5/30
  */
 class GoodsService
 {

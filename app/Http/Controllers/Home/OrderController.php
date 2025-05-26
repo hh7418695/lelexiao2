@@ -11,16 +11,7 @@ use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\DB;
 
 
-/**
- * 订单控制器
- *
- * Class OrderController
- * @package App\Http\Controllers\Home
- * @author: Assimon
- * @email: Ashang@utf8.hk
- * @blog: https://utf8.hk
- * Date: 2021/5/30
- */
+
 class OrderController extends BaseController
 {
 

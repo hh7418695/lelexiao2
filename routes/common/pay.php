@@ -39,6 +39,8 @@ Route::group(['prefix' => 'pay', 'namespace' => 'Pay', 'middleware' => ['dujiaok
     Route::get('stripe/return_url','StripeController@returnUrl');
     Route::get('stripe/check','StripeController@check');
     Route::get('stripe/charge','StripeController@charge');
+    // 测试路由 - 模拟支付宝支付成功
+    Route::get('test/alipay-success/{orderSN}', 'AlipayController@testNotify');
     // Coinbase
     Route::get('coinbase/{payway}/{orderSN}', 'CoinbaseController@gateway');
     Route::post('coinbase/notify_url', 'CoinbaseController@notifyUrl');

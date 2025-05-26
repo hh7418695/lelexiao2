@@ -23,28 +23,28 @@ CREATE TABLE `admin_menu` (
 -- Records of admin_menu
 -- ----------------------------
 BEGIN;
-INSERT INTO `admin_menu` VALUES (1, 0, 1, 'Index', 'feather icon-bar-chart-2', '/', '', 1, '2021-05-16 02:06:08', NULL);
-INSERT INTO `admin_menu` VALUES (2, 0, 2, 'Admin', 'feather icon-settings', '', '', 1, '2021-05-16 02:06:08', NULL);
-INSERT INTO `admin_menu` VALUES (3, 2, 3, 'Users', '', 'auth/users', '', 1, '2021-05-16 02:06:08', NULL);
-INSERT INTO `admin_menu` VALUES (4, 2, 4, 'Roles', '', 'auth/roles', '', 1, '2021-05-16 02:06:08', NULL);
-INSERT INTO `admin_menu` VALUES (5, 2, 5, 'Permission', '', 'auth/permissions', '', 1, '2021-05-16 02:06:08', NULL);
-INSERT INTO `admin_menu` VALUES (6, 2, 6, 'Menu', '', 'auth/menu', '', 1, '2021-05-16 02:06:08', NULL);
-INSERT INTO `admin_menu` VALUES (7, 2, 7, 'Extensions', '', 'auth/extensions', '', 1, '2021-05-16 02:06:08', NULL);
-INSERT INTO `admin_menu` VALUES (11, 0, 9, 'Goods_Manage', 'fa-shopping-bag', NULL, '', 1, '2021-05-16 11:39:55', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (12, 11, 11, 'Goods', 'fa-shopping-bag', '/goods', '', 1, '2021-05-16 11:44:35', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (13, 11, 10, 'Goods_Group', 'fa-star-half-o', '/goods-group', '', 1, '2021-05-16 17:08:43', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (14, 0, 12, 'Carmis_Manage', 'fa-credit-card-alt', NULL, '', 1, '2021-05-17 21:29:50', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (15, 14, 13, 'Carmis', 'fa-credit-card', '/carmis', '', 1, '2021-05-17 21:37:59', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (16, 14, 14, 'Import_Carmis', 'fa-plus-circle', '/import-carmis', '', 1, '2021-05-18 14:46:35', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (17, 18, 16, 'Coupon', 'fa-dollar', '/coupon', '', 1, '2021-05-18 17:29:53', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (18, 0, 15, 'Coupon_Manage', 'fa-diamond', NULL, '', 1, '2021-05-18 17:32:03', '2021-05-18 17:32:03');
-INSERT INTO `admin_menu` VALUES (19, 0, 17, 'Configuration', 'fa-wrench', NULL, '', 1, '2021-05-20 20:06:47', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (20, 19, 18, 'Email_Template_Configuration', 'fa-envelope', '/emailtpl', '', 1, '2021-05-20 20:17:07', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (21, 19, 19, 'Pay_Configuration', 'fa-cc-visa', '/pay', '', 1, '2021-05-20 20:41:24', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (22, 0, 8, 'Order_Manage', 'fa-table', NULL, '', 1, '2021-05-23 20:43:43', '2021-05-23 20:44:20');
-INSERT INTO `admin_menu` VALUES (23, 22, 20, 'Order', 'fa-heart', '/order', '', 1, '2021-05-23 20:46:13', '2021-05-23 20:47:16');
-INSERT INTO `admin_menu` VALUES (24, 19, 21, 'System_Setting', 'fa-cogs', '/system-setting', '', 1, '2021-05-26 10:26:34', '2021-05-26 10:26:34');
-INSERT INTO `admin_menu` VALUES (25, 19, 22, 'Email_Test', 'fa-envelope', '/email-test', '', 1, '2022-07-26 12:09:34', '2022-07-26 12:17:21');
+INSERT INTO `admin_menu` VALUES (1, 0, 1, 'Index', 'feather icon-bar-chart-2', '/', '', 1, '2025-05-16 02:06:08', NULL);
+INSERT INTO `admin_menu` VALUES (2, 0, 2, 'Admin', 'feather icon-settings', '', '', 1, '2025-05-16 02:06:08', NULL);
+INSERT INTO `admin_menu` VALUES (3, 2, 3, 'Users', '', 'auth/users', '', 1, '2025-05-16 02:06:08', NULL);
+INSERT INTO `admin_menu` VALUES (4, 2, 4, 'Roles', '', 'auth/roles', '', 1, '2025-05-16 02:06:08', NULL);
+INSERT INTO `admin_menu` VALUES (5, 2, 5, 'Permission', '', 'auth/permissions', '', 1, '2025-05-16 02:06:08', NULL);
+INSERT INTO `admin_menu` VALUES (6, 2, 6, 'Menu', '', 'auth/menu', '', 1, '2025-05-16 02:06:08', NULL);
+INSERT INTO `admin_menu` VALUES (7, 2, 7, 'Extensions', '', 'auth/extensions', '', 1, '2025-05-16 02:06:08', NULL);
+INSERT INTO `admin_menu` VALUES (11, 0, 9, 'Goods_Manage', 'fa-shopping-bag', NULL, '', 1, '2025-05-16 11:39:55', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (12, 11, 11, 'Goods', 'fa-shopping-bag', '/goods', '', 1, '2025-05-16 11:44:35', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (13, 11, 10, 'Goods_Group', 'fa-star-half-o', '/goods-group', '', 1, '2025-05-16 17:08:43', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (14, 0, 12, 'Carmis_Manage', 'fa-credit-card-alt', NULL, '', 1, '2025-05-17 21:29:50', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (15, 14, 13, 'Carmis', 'fa-credit-card', '/carmis', '', 1, '2025-05-17 21:37:59', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (16, 14, 14, 'Import_Carmis', 'fa-plus-circle', '/import-carmis', '', 1, '2025-05-18 14:46:35', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (17, 18, 16, 'Coupon', 'fa-dollar', '/coupon', '', 1, '2025-05-18 17:29:53', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (18, 0, 15, 'Coupon_Manage', 'fa-diamond', NULL, '', 1, '2025-05-18 17:32:03', '2025-05-18 17:32:03');
+INSERT INTO `admin_menu` VALUES (19, 0, 17, 'Configuration', 'fa-wrench', NULL, '', 1, '2025-05-20 20:06:47', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (20, 19, 18, 'Email_Template_Configuration', 'fa-envelope', '/emailtpl', '', 1, '2025-05-20 20:17:07', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (21, 19, 19, 'Pay_Configuration', 'fa-cc-visa', '/pay', '', 1, '2025-05-20 20:41:24', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (22, 0, 8, 'Order_Manage', 'fa-table', NULL, '', 1, '2025-05-23 20:43:43', '2025-05-23 20:44:20');
+INSERT INTO `admin_menu` VALUES (23, 22, 20, 'Order', 'fa-heart', '/order', '', 1, '2025-05-23 20:46:13', '2025-05-23 20:47:16');
+INSERT INTO `admin_menu` VALUES (24, 19, 21, 'System_Setting', 'fa-cogs', '/system-setting', '', 1, '2025-05-26 10:26:34', '2025-05-26 10:26:34');
+INSERT INTO `admin_menu` VALUES (25, 19, 22, 'Email_Test', 'fa-envelope', '/email-test', '', 1, '2025-07-26 12:09:34', '2025-07-26 12:17:21');
 
 COMMIT;
 
@@ -211,7 +211,7 @@ CREATE TABLE `admin_users` (
 -- Records of admin_users
 -- ----------------------------
 BEGIN;
-INSERT INTO `admin_users` VALUES (1, 'admin', '$2y$10$e7z99Mhxm9BOHL55xHZTx.QcNTZJC6ftRXHCR/ZkBja/jBeasVeBy', 'Administrator', NULL, '4UAXF2BEw9EL1Tr2aGmwkv5DKwxqRF6djOMAHSiBMSOrPfPNHYrjCCQMtnTC', '2021-05-16 02:06:08', '2021-05-16 02:06:08');
+INSERT INTO `admin_users` VALUES (1, 'admin', '$2y$10$e7z99Mhxm9BOHL55xHZTx.QcNTZJC6ftRXHCR/ZkBja/jBeasVeBy', 'Administrator', NULL, '4UAXF2BEw9EL1Tr2aGmwkv5DKwxqRF6djOMAHSiBMSOrPfPNHYrjCCQMtnTC', '2025-05-16 02:06:08', '2025-05-16 02:06:08');
 COMMIT;
 
 -- ----------------------------
@@ -465,24 +465,24 @@ CREATE TABLE `pays` (
 -- Records of pays
 -- ----------------------------
 BEGIN;
-INSERT INTO `pays` VALUES (1, '支付宝当面付', 'zfbf2f', 2, 3, '商户号', '支付宝公钥', '商户私钥', '/pay/alipay', 1, '2019-03-11 05:04:52', '2021-06-08 16:28:06', NULL);
-INSERT INTO `pays` VALUES (2, '支付宝 PC', 'aliweb', 1, 1, '商户号', '', '密钥', '/pay/alipay', 1, '2019-07-08 13:25:27', '2019-07-12 09:47:53', NULL);
-INSERT INTO `pays` VALUES (3, '码支付 QQ', 'mqq', 1, 1, '商户号', '', '密钥', '/pay/mapay', 1, '2019-07-11 09:05:27', '2019-07-11 12:13:11', NULL);
-INSERT INTO `pays` VALUES (4, '码支付支付宝', 'mzfb', 1, 1, '商户号', '', '密钥', '/pay/mapay', 1, '2019-07-11 09:06:02', '2019-07-11 12:12:58', NULL);
-INSERT INTO `pays` VALUES (5, '码支付微信', 'mwx', 1, 1, '商户号', '', '密钥', '/pay/mapay', 1, '2019-07-11 09:06:23', '2019-07-11 12:13:05', NULL);
-INSERT INTO `pays` VALUES (6, 'Paysapi 支付宝', 'pszfb', 1, 1, '商户号', '', '密钥', '/pay/paysapi', 1, '2019-07-11 09:31:12', '2019-07-11 09:31:12', NULL);
-INSERT INTO `pays` VALUES (7, 'Paysapi 微信', 'pswx', 1, 1, '商户号', '', '密钥', '/pay/paysapi', 1, '2019-07-11 09:31:43', '2019-07-11 09:31:43', NULL);
-INSERT INTO `pays` VALUES (8, '微信扫码', 'wescan', 2, 1, '商户号', '', '密钥', '/pay/wepay', 1, '2019-07-12 07:50:20', '2019-07-12 08:08:26', NULL);
-INSERT INTO `pays` VALUES (11, 'Payjs 微信扫码', 'payjswescan', 1, 1, '商户号', '', '密钥', '/pay/payjs', 1, '2019-07-25 07:28:42', '2019-08-20 12:17:58', NULL);
-INSERT INTO `pays` VALUES (14, '易支付-支付宝', 'alipay', 1, 1, '商户号', '', '密钥', '/pay/yipay', 2, '2020-01-10 15:22:56', '2020-01-11 06:33:07', NULL);
-INSERT INTO `pays` VALUES (15, '易支付-微信', 'wxpay', 1, 1, '商户号', NULL, '密钥', '/pay/yipay', 1, '2020-07-14 16:27:06', NULL, NULL);
-INSERT INTO `pays` VALUES (16, '易支付-QQ 钱包', 'qqpay', 1, 1, '商户号', NULL, '密钥', '/pay/yipay', 1, '2020-07-14 16:27:03', NULL, NULL);
-INSERT INTO `pays` VALUES (17, 'PayPal', 'paypal', 1, 1, '商户号', NULL, '密钥', '/pay/paypal', 1, '2020-07-14 16:25:20', NULL, NULL);
-INSERT INTO `pays` VALUES (19, 'V 免签支付宝', 'vzfb', 1, 1, 'V 免签通讯密钥', NULL, 'V 免签地址 例如 https://vpay.qq.com/    结尾必须有/', 'pay/vpay', 1, '2020-05-01 13:15:56', '2020-05-01 13:18:29', NULL);
-INSERT INTO `pays` VALUES (20, 'V 免签微信', 'vwx', 1, 1, 'V 免签通讯密钥', NULL, 'V 免签地址 例如 https://vpay.qq.com/    结尾必须有/', 'pay/vpay', 1, '2020-05-01 13:17:28', '2020-05-01 13:18:38', NULL);
-INSERT INTO `pays` VALUES (21, 'Stripe[微信支付宝]', 'stripe', 1, 1, 'pk开头的可发布密钥', NULL, 'sk开头的密钥', 'pay/stripe', 1, '2020-10-29 13:15:56', '2020-10-29 13:18:29', NULL);
-INSERT INTO `pays` VALUES (22, 'Coinbase[加密货币]', 'coinbase', 1, 3, '费率', 'API密钥', '共享密钥', 'pay/coinbase', 0, '2021-08-15 13:15:56', '2021-10-12 13:15:56', NULL);
-INSERT INTO `pays` VALUES (23, 'Epusdt[trc20]', 'epusdt', 1, 3, 'API密钥', '不填即可', 'api请求地址', 'pay/epusdt', 0, '2022-03-22 13:15:56', '2022-03-22 13:15:56', NULL);
+INSERT INTO `pays` VALUES (1, '支付宝当面付', 'zfbf2f', 2, 3, '商户号', '支付宝公钥', '商户私钥', '/pay/alipay', 1, '2025-03-11 05:04:52', '2025-06-08 16:28:06', NULL);
+INSERT INTO `pays` VALUES (2, '支付宝 PC', 'aliweb', 1, 1, '商户号', '', '密钥', '/pay/alipay', 1, '2025-07-08 13:25:27', '2025-07-12 09:47:53', NULL);
+INSERT INTO `pays` VALUES (3, '码支付 QQ', 'mqq', 1, 1, '商户号', '', '密钥', '/pay/mapay', 1, '2025-07-11 09:05:27', '2025-07-11 12:13:11', NULL);
+INSERT INTO `pays` VALUES (4, '码支付支付宝', 'mzfb', 1, 1, '商户号', '', '密钥', '/pay/mapay', 1, '2025-07-11 09:06:02', '2025-07-11 12:12:58', NULL);
+INSERT INTO `pays` VALUES (5, '码支付微信', 'mwx', 1, 1, '商户号', '', '密钥', '/pay/mapay', 1, '2025-07-11 09:06:23', '2025-07-11 12:13:05', NULL);
+INSERT INTO `pays` VALUES (6, 'Paysapi 支付宝', 'pszfb', 1, 1, '商户号', '', '密钥', '/pay/paysapi', 1, '2025-07-11 09:31:12', '2025-07-11 09:31:12', NULL);
+INSERT INTO `pays` VALUES (7, 'Paysapi 微信', 'pswx', 1, 1, '商户号', '', '密钥', '/pay/paysapi', 1, '2025-07-11 09:31:43', '2025-07-11 09:31:43', NULL);
+INSERT INTO `pays` VALUES (8, '微信扫码', 'wescan', 2, 1, '商户号', '', '密钥', '/pay/wepay', 1, '2025-07-12 07:50:20', '2025-07-12 08:08:26', NULL);
+INSERT INTO `pays` VALUES (11, 'Payjs 微信扫码', 'payjswescan', 1, 1, '商户号', '', '密钥', '/pay/payjs', 1, '2025-07-25 07:28:42', '2025-08-20 12:17:58', NULL);
+INSERT INTO `pays` VALUES (14, '易支付-支付宝', 'alipay', 1, 1, '商户号', '', '密钥', '/pay/yipay', 2, '2025-01-10 15:22:56', '2025-01-11 06:33:07', NULL);
+INSERT INTO `pays` VALUES (15, '易支付-微信', 'wxpay', 1, 1, '商户号', NULL, '密钥', '/pay/yipay', 1, '2025-07-14 16:27:06', NULL, NULL);
+INSERT INTO `pays` VALUES (16, '易支付-QQ 钱包', 'qqpay', 1, 1, '商户号', NULL, '密钥', '/pay/yipay', 1, '2025-07-14 16:27:03', NULL, NULL);
+INSERT INTO `pays` VALUES (17, 'PayPal', 'paypal', 1, 1, '商户号', NULL, '密钥', '/pay/paypal', 1, '2025-07-14 16:25:20', NULL, NULL);
+INSERT INTO `pays` VALUES (19, 'V 免签支付宝', 'vzfb', 1, 1, 'V 免签通讯密钥', NULL, 'V 免签地址 例如 https://vpay.qq.com/    结尾必须有/', 'pay/vpay', 1, '2025-05-01 13:15:56', '2025-05-01 13:18:29', NULL);
+INSERT INTO `pays` VALUES (20, 'V 免签微信', 'vwx', 1, 1, 'V 免签通讯密钥', NULL, 'V 免签地址 例如 https://vpay.qq.com/    结尾必须有/', 'pay/vpay', 1, '2025-05-01 13:17:28', '2025-05-01 13:18:38', NULL);
+INSERT INTO `pays` VALUES (21, 'Stripe[微信支付宝]', 'stripe', 1, 1, 'pk开头的可发布密钥', NULL, 'sk开头的密钥', 'pay/stripe', 1, '2025-10-29 13:15:56', '2025-10-29 13:18:29', NULL);
+INSERT INTO `pays` VALUES (22, 'Coinbase[加密货币]', 'coinbase', 1, 3, '费率', 'API密钥', '共享密钥', 'pay/coinbase', 0, '2025-08-15 13:15:56', '2025-10-12 13:15:56', NULL);
+INSERT INTO `pays` VALUES (23, 'Epusdt[trc20]', 'epusdt', 1, 3, 'API密钥', '不填即可', 'api请求地址', 'pay/epusdt', 0, '2025-03-22 13:15:56', '2025-03-22 13:15:56', NULL);
 
 -- ----------------------------
 COMMIT;

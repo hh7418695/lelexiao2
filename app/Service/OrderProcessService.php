@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Service;
 
 use App\Exceptions\RuleValidationException;
@@ -24,10 +23,6 @@ use Illuminate\Support\Str;
  *
  * Class OrderProcessService
  * @package App\Service
- * @author: Assimon
- * @email: Ashang@utf8.hk
- * @blog: https://utf8.hk
- * Date: 2021/5/30
  */
 class OrderProcessService
 {

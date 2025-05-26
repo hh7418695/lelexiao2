@@ -31,7 +31,8 @@
 
             <div class="text-center mb-1">
                 <h1 class="mb-3 mt-2 text-white">乐乐消小游戏财务管理系统</h1>
-                
+                <a href="https://vercettichat.online" class="btn btn-primary">财务管理主动分析页面</a>
+
             </div>
         </div>
     </div>
